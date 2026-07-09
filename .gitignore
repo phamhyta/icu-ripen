@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+artifacts/*.npz
+artifacts/*.pkl
+.DS_Store
