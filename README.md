@@ -7,11 +7,12 @@ monitor the paper develops; earlier project material used the working name `Matu
 `maturecs_*.py` module names retain it for provenance.
 
 > **Status: skeleton release.** This repository currently contains the module structure, API
-> signatures, reference implementations of the core estimators (the IPCW maturation weights, the
-> Hájek self-normalized Brier, the weighted Mann–Whitney AUROC, and the one-sided lower confidence
-> bound used for alarming), and documentation of the full pipeline. The complete replay pipeline,
-> cached out-of-fold scores, per-stay delays, and replay seeds will be released here under an
-> open-source license upon publication.
+> signatures, and — in every module — reference implementations of the core estimators and
+> utilities (the IPCW maturation weights, the Hájek self-normalized Brier and its delta-method
+> CI, the weighted Mann–Whitney AUROC, the peeling/intersection helpers behind the running band,
+> the one-sided lower confidence bounds used for alarming, and the exact McNemar test). The
+> replay/experiment drivers, cached out-of-fold scores, per-stay delays, and replay seeds will be
+> released here under an open-source license upon publication.
 
 ## What RIPEN does
 
